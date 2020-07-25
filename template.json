@@ -1,24 +1,4 @@
 {
-    "license": "MIT",
-    "author": "Kenny To <knyto2@gmail.com",
-    "description": "A quick start Create React App template my go to dependencies and configurations",
-    "keywords": [
-        "create-react-app",
-        "cra-template",
-        "template",
-        "classnames",
-        "connected-react-router",
-        "node-sass",
-        "prop-types",
-        "react",
-        "react-dom",
-        "react-router-dom",
-        "react-scripts",
-        "redux",
-        "redux-thunk",
-        "reselect",
-        "rxjs"
-    ],
     "dependencies": {
         "@material-ui/core": "^4.11.0",
         "@testing-library/jest-dom": "^4.2.4",

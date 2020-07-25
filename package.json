@@ -1,7 +1,31 @@
 {
     "name": "cra-template-kenny",
-    "version": "0.1.0",
-    "private": true,
+    "version": "0.1.6",
+    "license": "MIT",
+    "author": "Kenny To <knyto2@gmail.com",
+    "description": "A quick start Create React App template my go to dependencies and configurations",
+    "main": "template.json",
+    "files": [
+        "template",
+        "template.json"
+    ],
+    "keywords": [
+        "create-react-app",
+        "cra-template",
+        "template",
+        "classnames",
+        "connected-react-router",
+        "node-sass",
+        "prop-types",
+        "react",
+        "react-dom",
+        "react-router-dom",
+        "react-scripts",
+        "redux",
+        "redux-thunk",
+        "reselect",
+        "rxjs"
+    ],
     "dependencies": {
         "@material-ui/core": "^4.11.0",
         "@testing-library/jest-dom": "^4.2.4",
@@ -28,7 +52,15 @@
         "eject": "react-scripts eject",
         "clean-files": "rm -rf ./template/public ./template/src",
         "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
-        "pre-build": "npm run clean-files && npm run copy-files"
+        "pre-publish": "npm run clean-files && npm run copy-files"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/knyto2/cra-template-kenny",
+        "directory": "/"
+    },
+    "bugs": {
+        "url": "https://github.com/knyto2/cra-template-kenny/issues"
     },
     "eslintConfig": {
         "extends": "react-app"
