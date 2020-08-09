@@ -1,6 +1,6 @@
 {
   "name": "cra-template-kenny",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "author": "Kenny To <knyto2@gmail.com",
   "description": "A quick start Create React App template my go to dependencies and configurations",
@@ -51,7 +51,7 @@
     "test:debug": "react-scripts test",
     "eject": "react-scripts eject",
     "clean-files": "rm -rf ./template/public ./template/src",
-    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp ./.eslintrc template/ && cp ./.prettierrc.json template/",
+    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public && cp ./.eslintrc template/ && cp ./.prettierrc.json template/ && cp ./README.md template/",
     "pre-publish": "npm run clean-files && npm run copy-files"
   },
   "repository": {
